@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Courses": [
+    {
+      "id": "101",
+      "Name": "Angular",
+      "Price": 18000,
+      "image": "https://miro.medium.com/max/1746/1*P7x-_0XfQz6CVmMY_QAv0w.png",
+      "description": "Live classes available",
+      "Category": "Web developement"
+    },
+    {
+      "id": "102",
+      "Name": "React Js",
+      "Price": 18000,
+      "image": "https://www.mobinius.com/wp-content/uploads/2020/02/reactjs-2.png",
+      "description": "Live classes available",
+      "Category": "Web developement"
+    },
+    {
+      "id": "103",
+      "Name": "Node Js",
+      "Price": 11000,
+      "image": "https://creativemansion.com.ng/wp-content/uploads/2021/06/nodejs-1.png",
+      "description": "Live classes available",
+      "Category": "Web developement"
+    },
+    {
+      "id": "104",
+      "Name": "MongoDB",
+      "Price": 10000,
+      "image": "https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png",
+      "description": "Live classes available",
+      "Category": "Web developement"
+    },
+    {
+      "id": "105",
+      "Name": "Python",
+      "Price": 9000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXDd_aEkEjTJVjwDO6IL4G2i9DB1iX2HiSvSE8qQ8x36yohmbSTfHHr_I9g997urzA6XE&usqp=CAU",
+      "description": "Live classes available",
+      "Category": "Web developement"
+    },
+    {
+      "id": "106",
+      "Name": "Spring Boot",
+      "Price": 14000,
+      "image": "https://blogs.ashrithgn.com/content/images/2019/11/spring-boot-logo.png",
+      "description": "Live classes available",
+      "Category": "Web developement"
+    }
+  ],
+  "UsersQueries": [
+    {
+      "courseid": "103",
+      "UserName": "Divaysree",
+      "MailId": "xyz@gmail.com",
+      "PhoneNo": "1234567890",
+      "Query": "let us know the duration of class for Nodejs",
+      "id": 1
+    },
+    {
+      "courseid": "101",
+      "UserName": "Divaysree",
+      "MailId": "xyz@gmail.com",
+      "PhoneNo": "1234567890",
+      "Query": "let us know the duration of class for Angular",
+      "id": 2
+    },
+    {
+      "courseid": "103",
+      "UserName": "Divaysree",
+      "MailId": "xyz@gmail.com",
+      "PhoneNo": "1234567890",
+      "Query": "let us know the duration of class for Angular",
+      "id": 3
+    },
+    {
+      "courseid": "101",
+      "UserName": "Divyasree",
+      "MailId": "divyasree131851@gmail.com",
+      "PhoneNo": "9490053361",
+      "Query": "can we get recorded videos of classes?",
+      "id": 4
+    }
+  ]
+}
